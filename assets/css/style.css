@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #DAD299;
+  background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  
+  background: linear-gradient(to right, #B0DAB9, #DAD299); 
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: #8E2DE2; 
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); 
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: #DCE35B;  
+  background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  
+  background: linear-gradient(to right, #45B649, #DCE35B); 
+
+}
+
+.paragrafo-resultado{
+  background-color: rgb(156, 80, 228);
+  padding: 10px 20px;
+}
+
+.paragrafo-invalido{
+  background-color: crimson;
+  padding: 10px 20px;
+}
